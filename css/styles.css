@@ -1,0 +1,32 @@
+/* applying general styles to the elements */
+
+body{
+    background-color: white;
+}
+
+.headerPage{
+    background-color: #333;
+    height: 50px;
+    width: 100%;
+}
+
+.headerPage p{
+    color: whitesmoke;
+    margin-left: 150px;
+    padding-top: 10px;
+}
+/* removing card borders */
+.card, .card-footer{
+    border-width: 0px;
+    background-color: transparent;
+}
+
+#img-item{
+    background-color: transparent;
+}
+
+.grid-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
